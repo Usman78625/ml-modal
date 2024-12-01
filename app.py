@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# Load the trained model
+# Load the
 from joblib import load
 loaded_model = load('final_model.joblib')
 # Add titles and headings
