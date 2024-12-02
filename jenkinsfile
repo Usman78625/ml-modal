@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_REPO = 'muhammadmohsin123/mohsin-model'
+        DOCKER_REPO = 'usman30/usman-model'
         VERSION = "0.0.${BUILD_NUMBER}"
         GIT_BRANCH = 'main'
     }
