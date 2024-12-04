@@ -7,6 +7,8 @@ loaded_model = load('final_model.joblib')
 st.title('Vehicle CO2 Emission Prediction')
 st.sidebar.title("Input Data")
 
+
+
 # User input form
 transmission = st.sidebar.selectbox('Transmission', ['M5', 'SAT5', 'A8', 'M6', 'A6', 'SA6', 'A9', 'SAT6', 'A5', '7DCT',
        'MPS6', 'A8_AWD', 'DCT7', 'M6_AWD', 'A6_AWD', 'MPS6_AWD', 'CVT',
